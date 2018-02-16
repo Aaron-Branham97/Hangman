@@ -1,29 +1,30 @@
-# Tic-Tac-Toe
-
-##Introduction Welcome to TicTacToe! The project was made for a Software Engineering Individual Project. 
+# Hangman
 
 
+##Introduction Welcome to Hangman! The project was made for a Java Programming class Individual Project. 
 
-##Installation Click here to download the zip folder that contains the program files. If that does not work, click the "Clone or download" button and select the option "Download Zip". Next, find the zip folder in your downloads folder. Unzip the folder to a convenient location. To run this project you can either run the jar file in the main folder.  
+
+
+##Installation Click here to download the zip folder that contains the program files. If that does not work, click the "Clone or download" button and select the option "Download Zip". Next, find the zip folder in your downloads folder. Unzip the folder to a convenient location. To run this project you can run the jar file in the main folder.  
 
 <p align="center">
   <img src="Pictures/OpeningBoard.PNG" width="350"/>
 </p>
 
-##Instructions This is a two player game, so find a friend to play aganist! The object of this game is to get three of your character's (either X's or O's) in a row either horrizontally, vertically or diagnally on a 3x3 grid.
+##Instructions The goal of this game is to guess the mystery word. Each turn the player chooses a letter to guess that they think is in the word. After each guess that tile will be disabled to prevent double guessing of a word. If the letter is in the mystery word, the placement in the mystery word will be revealed bellow. Default the mystery word to the user is "*****" depending on the number of letters of the word. If the chosen letter is not, the number of misses will be incremeted. Be careful, because 6 missed letters will result in a loss! 
 
-The first player to go will be player X. Click on a tile to place your "token" this will end your turn. Player O will then place his/her token and this will continue till either: Player X or Player O gets a 3 in a row or all tiles have been used and there cannont be a winner and this will result in a tie!
+The default word is "inconceivable" for this game. To change the word, go into the Main.java file and change the String inputed into the HangmanGUI constructor on line 11. 
 
 ##Example Gameplay
 
 <p align="center">
-  <img src="Pictures/XFirstTurn.PNG" width="350"/>
+  <img src="Pictures/firstTurn.PNG" width="350"/>
 </p>
 
-In this example, Player X places his/her's first token on the Top-Left tile on the grid. It is now Player O's turn.
+In this example, The Player guesses the letter "G". "G" is not in the mystery word, so the Missed letter counter is incremeted. The "G" is also now disable to prevent another "G" guess.
 
 <p align="center">
-  <img src="Pictures/OFirstTurn.PNG" width="350"/>
+  <img src="Pictures/2Turn.PNG" width="350"/>
 </p>
 
 Player O places his/her token in the Bottom-Left tile on the grid.
