@@ -11,7 +11,7 @@
   <img src="Pictures/OpeningBoard.PNG" width="350"/>
 </p>
 
-##Instructions The goal of this game is to guess the mystery word. Each turn the player chooses a letter to guess that they think is in the word. After each guess that tile will be disabled to prevent double guessing of a word. If the letter is in the mystery word, the placement in the mystery word will be revealed bellow. Default the mystery word to the user is "*****" depending on the number of letters in the word. If the chosen letter is not in the mystery word, the number of misses will be incremented. Be careful, because 6 missed letters will result in a loss! 
+##Instructions The goal of this game is to guess the mystery word. Each turn the player chooses a letter to guess (they do so by clicking on the corresponding tile) that they think is in the word. After each guess that tile will be disabled to prevent double guessing of a word. If the letter is in the mystery word, the placement in the mystery word will be revealed bellow. Default the mystery word to the user is "*****" depending on the number of letters in the word. If the chosen letter is not in the mystery word, the number of misses will be incremented. Be careful, because 6 missed letters will result in a loss! 
 
 The default word is "inconceivable" for this game. To change the word, go into the Main.java file and change the String input into the HangmanGUI constructor on line 11. 
 
